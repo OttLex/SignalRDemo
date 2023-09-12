@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.SignalR.Client;
+using System;
 
 namespace SignalRClient
 {
@@ -20,9 +21,16 @@ namespace SignalRClient
 
             _hubConnection.On<string, string>("ReceiveMessage", (user, message) =>
             {
-                lblChat.Text += $"<b>{user}</b>: {message}<br/>";
+                //Dispatcher.BeginInvoke(new Action(() =>
+                //{
+                //    lblChat.Text += $"<b>{user}</b>: {message}<br/>";
+                //}));
+               // lblChat.Text += $"<b>{user}</b>: {message}<br/>";
 
+                Application.Current.MainPage.Dispatcher.Dispatch(() => lblChat.Text += $"<b>{user}</b>: {message}<br/>");
             });
+            
+            
 
             Task.Run(() =>
             {
