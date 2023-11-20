@@ -1,0 +1,16 @@
+{
+  "SignalRBasics.Controllers": "SignalRBasics.Controllers.yml",
+  "SignalRBasics.Controllers.HomeController": "SignalRBasics.Controllers.HomeController.yml",
+  "SignalRBasics.Controllers.HomeController.#ctor(Microsoft.Extensions.Logging.ILogger{SignalRBasics.Controllers.HomeController})": "SignalRBasics.Controllers.HomeController.yml",
+  "SignalRBasics.Controllers.HomeController.ChatDemo": "SignalRBasics.Controllers.HomeController.yml",
+  "SignalRBasics.Controllers.HomeController.Error": "SignalRBasics.Controllers.HomeController.yml",
+  "SignalRBasics.Controllers.HomeController.Index": "SignalRBasics.Controllers.HomeController.yml",
+  "SignalRBasics.Controllers.HomeController.Privacy": "SignalRBasics.Controllers.HomeController.yml",
+  "SignalRBasics.Hubs": "SignalRBasics.Hubs.yml",
+  "SignalRBasics.Hubs.ChatHub": "SignalRBasics.Hubs.ChatHub.yml",
+  "SignalRBasics.Hubs.ChatHub.SendMessageToAll(System.String,System.String)": "SignalRBasics.Hubs.ChatHub.yml",
+  "SignalRBasics.Models": "SignalRBasics.Models.yml",
+  "SignalRBasics.Models.ErrorViewModel": "SignalRBasics.Models.ErrorViewModel.yml",
+  "SignalRBasics.Models.ErrorViewModel.RequestId": "SignalRBasics.Models.ErrorViewModel.yml",
+  "SignalRBasics.Models.ErrorViewModel.ShowRequestId": "SignalRBasics.Models.ErrorViewModel.yml"
+}

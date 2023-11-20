@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SignalRBasics.Controllers
+  commentId: N:SignalRBasics.Controllers
+  id: SignalRBasics.Controllers
+  children:
+  - SignalRBasics.Controllers.HomeController
+  langs:
+  - csharp
+  - vb
+  name: SignalRBasics.Controllers
+  nameWithType: SignalRBasics.Controllers
+  fullName: SignalRBasics.Controllers
+  type: Namespace
+  assemblies:
+  - SignalRServer
+references:
+- uid: SignalRBasics.Controllers.HomeController
+  commentId: T:SignalRBasics.Controllers.HomeController
+  href: SignalRBasics.Controllers.HomeController.html
+  name: HomeController
+  nameWithType: HomeController
+  fullName: SignalRBasics.Controllers.HomeController

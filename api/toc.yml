@@ -1,0 +1,18 @@
+### YamlMime:TableOfContent
+items:
+- uid: SignalRBasics.Controllers
+  name: SignalRBasics.Controllers
+  items:
+  - uid: SignalRBasics.Controllers.HomeController
+    name: HomeController
+- uid: SignalRBasics.Hubs
+  name: SignalRBasics.Hubs
+  items:
+  - uid: SignalRBasics.Hubs.ChatHub
+    name: ChatHub
+- uid: SignalRBasics.Models
+  name: SignalRBasics.Models
+  items:
+  - uid: SignalRBasics.Models.ErrorViewModel
+    name: ErrorViewModel
+memberLayout: SamePage

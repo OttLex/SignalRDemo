@@ -4,6 +4,10 @@ using System.Diagnostics;
 
 namespace SignalRBasics.Controllers
 {
+    /// <summary>
+    /// HomeController 
+    /// Базовый контроллер с чатом.
+    /// </summary>
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -23,6 +27,11 @@ namespace SignalRBasics.Controllers
             return View();
         }
 
+        /// <summary>
+        /// ChatDemo
+        /// Открывает View чата.
+        /// </summary>
+        /// <returns></returns>
         public ViewResult ChatDemo()
         {
             return View();

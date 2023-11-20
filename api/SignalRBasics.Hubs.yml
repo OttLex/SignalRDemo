@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SignalRBasics.Hubs
+  commentId: N:SignalRBasics.Hubs
+  id: SignalRBasics.Hubs
+  children:
+  - SignalRBasics.Hubs.ChatHub
+  langs:
+  - csharp
+  - vb
+  name: SignalRBasics.Hubs
+  nameWithType: SignalRBasics.Hubs
+  fullName: SignalRBasics.Hubs
+  type: Namespace
+  assemblies:
+  - SignalRServer
+references:
+- uid: SignalRBasics.Hubs.ChatHub
+  commentId: T:SignalRBasics.Hubs.ChatHub
+  href: SignalRBasics.Hubs.ChatHub.html
+  name: ChatHub
+  nameWithType: ChatHub
+  fullName: SignalRBasics.Hubs.ChatHub

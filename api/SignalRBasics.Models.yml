@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SignalRBasics.Models
+  commentId: N:SignalRBasics.Models
+  id: SignalRBasics.Models
+  children:
+  - SignalRBasics.Models.ErrorViewModel
+  langs:
+  - csharp
+  - vb
+  name: SignalRBasics.Models
+  nameWithType: SignalRBasics.Models
+  fullName: SignalRBasics.Models
+  type: Namespace
+  assemblies:
+  - SignalRServer
+references:
+- uid: SignalRBasics.Models.ErrorViewModel
+  commentId: T:SignalRBasics.Models.ErrorViewModel
+  href: SignalRBasics.Models.ErrorViewModel.html
+  name: ErrorViewModel
+  nameWithType: ErrorViewModel
+  fullName: SignalRBasics.Models.ErrorViewModel
